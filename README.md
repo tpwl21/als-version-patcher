@@ -42,8 +42,6 @@ Uncompress als file to read its xml content (xml can also be read directly by ab
 gzip -cd test.als > test.xml
 ```
 
-
-
 ## Warning
 - This method has been tested only for Live11.5 to Live11.0
 - This method works only if no new features/ new synth are not used (synth not present in the target older version)
