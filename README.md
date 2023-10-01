@@ -29,13 +29,18 @@ options:
   -h, --help  show this help message and exit
   -i I        Path to the input als file
   -o O        Path to the output als file
-  -v V        Ableton target version
+  -v V        Ableton target version (default 11)
 ```
 
-
-## Add a Live Version
+## Add a Target Live Version
 
 Complete the ini file with the differents values coming from your als file xml header
+
+Uncompress als file to read its xml content (xml can also be read directly by ableton):
+
+```
+gzip -cd test.als > test.xml
+```
 
 
 
